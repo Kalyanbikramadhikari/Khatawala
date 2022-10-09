@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS for purchase bill here */
+.Purchse-section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Purchase-heading{
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 5px 20px  5px 40px;
+    color:blue;
+    border-bottom: 3px solid red;
+    
+}
+.box{
+    height: 80px;
+    background-color: rgb(224, 224, 224);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 20px 0px 20px;
+    
+}
+.bill-input{
+    display: flex;
+    height: 20px;
+    margin-top: 10px;
+}
+.margin-around{
+    margin-left: 20px;
+}
+.bill-input2{
+    display: flex;
+    margin-top: 20px;
+
+}
+.box-elements{
+    margin-top: 20px;
+    /* border: 2 px solid red; */
+}
+.total-sales-amount{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #DA3232;
+    border-radius: 20px;
+    margin-left: 250px;
+    padding: 10px;
+}
+.box-elements .total-sales-amount span{
+    padding-left: 20px;
+}
+.total-products{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #DA3232;
+    border-radius: 20px;
+    margin-left: 650px;
+    padding: 10px;
+}
+.box-elements .total-products span{
+    padding-left: 30px;
+}
+.Amount{
+    font-weight: bold;
+    color:#DA3232;
+    font: 30px arial, helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+
+
+.Purchase-table{
+    margin-top: 100px;
+    background-color:  rgb(224, 224, 224);
+    border: 2px solid rgb(0, 0, 0);
+
+}
+th{
+    border: 2px solid #DA3232;
+    
+}
+ td{ 
+/* note the difference between comma after th and without comma. without comma is in navigation section. */
+    border: 1px solid #DA3232;
+    
+}
+.unit-price, .quantity{
+    width: 80px;
+    
+}
+
+.Print-Section{
+    margin: 20px;
+    
+}
+.Print{
+    width: 80px;
+    height: 29px;
+    background-color: rgb(12, 215, 12);
+    border-radius: 5px;
+    border: none;
+    margin-left: 1090px;
+}
+.Cancel{
+    width: 80px;
+    height: 29px;
+    background-color: rgb(230, 6, 6);
+    border-radius: 5px;
+    border: none;
+    margin-left: 900px;
+    margin-top: 0px;
+    
+}
+/* material table's css  */
+.material-body{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+.material-body .table-body{
+    margin: 0px 20px 0 0px;
+    border: 2px solid black;
+    width: 70%;
+    position: relative;
+    left: 1.8%;
+    
+}
+.material-body .table-right{
+    position: relative;
+    margin-left: 2%;
+    border: 2px solid rgb(0, 0, 0);
+    height: 200px;
+    width: 30%;
+    margin-right: 1.8%;
+    background-color: rgb(224, 224, 224);
+    text-align: left;
+    padding: 2%;
+
+}
+.table-right .billling-button{
+    background-color: rgb(0, 255, 0);
+    height: 20px;
+    border: 1px solid red;
+}
+.table-right a{
+    text-decoration: none;
+    
+}
+.sales-submit{
+    background-color: rgb(25, 238, 25);
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 5px ;
+}
