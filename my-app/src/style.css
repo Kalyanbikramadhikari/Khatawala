@@ -105,6 +105,7 @@ th{
     border-radius: 5px;
     border: none;
     margin-left: 1090px;
+    
 }
 .Cancel{
     width: 80px;
@@ -157,4 +158,101 @@ th{
     width: 60px;
     border: none;
     border-radius: 5px ;
+}
+
+
+
+/* CSS for bill page starts here */
+
+.bill-header{
+    position: relative;
+    
+
+
+}
+.bill-header .colored-box{
+    height: 10px;
+    
+    background-color: crimson;
+    margin: 40px 50px 10px 50px ;
+}
+
+.bill-body .bill-top{
+    height: 20vh;
+    background-color: #D9D9D9;
+    color: #E77E7E;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+/* .bill-body .bill-top .image{
+    margin-top: 20px;
+    background-color: red;
+    margin: 10px;
+    
+    height: 60px;
+    width: auto;
+
+
+} */
+.colored-box{
+    position: relative;
+    
+}
+.bill-body .bill-top .company{
+    margin: 0px;
+    color: black;
+    flex-grow: 3;
+    align-items: left  ;
+
+}
+.Buyers-details{
+    flex-grow: 4;
+}
+.fields{
+    flex-grow: 3;
+}
+.payment-details{
+    position: relative;
+    right: -400px;
+}
+.bill-table{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+.bill-printer .Print-bill{
+    width: 80px;
+    height: 29px;
+    background-color: rgb(12, 215, 12);
+    border-radius: 5px;
+    border: none;
+    margin-left: 1090px;
+}
+
+.bill-footer{
+    background-color: #D9D9D9;
+    
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    color:crimson;
+}
+.colored-box1{
+    
+    
+    height: 10px;
+    
+    background-color: crimson;
+    
+    margin:0px 50px 10px 50px;
+    
 }

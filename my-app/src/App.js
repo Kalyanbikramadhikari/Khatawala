@@ -1,5 +1,6 @@
 import React  from 'react';
 import './App.css';
+import Bill from './components/bill';
 import Purchase from './components/Purchase';
 import Sales from './components/sales';
 
@@ -18,6 +19,8 @@ function App() {
     <div className="App">
       {/* <Purchase/> */}
       {/* <Sales/> */}
+      <Bill/>
+    
     </div>
   );
 }
